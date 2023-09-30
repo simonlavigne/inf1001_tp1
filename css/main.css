@@ -83,15 +83,19 @@ div {
 }
 
 /*
-    On souhaite que la table prenne l'espace disponible dans la division 'contenu'
+    -- La table prends l'espace disponible dans la division 'contenu'
 */
 #activite {
     width: 100%;
 }
-
+/*
+    -- Définition du style de la bordure (border)
+    -- Définition de la couleur de la bordure (border-color)
+    -- Définition de la taille de la police (font-size)
+*/
 #activite th, td{
     border:1px solid;
-    color: #000000;
+    border-color: #000000;
     font-size: 12px;
 }
 
