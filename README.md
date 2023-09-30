@@ -30,7 +30,10 @@ Ces trois propriétés alignent l'élément h1, c'est-à-dire le titre de la ban
 Menu : ID menu
 --------------
 La navigation est composée d'une liste de liens. Le tag <nav> est utilisé pour définir la navigation principale du site. Le tag enfant est utilisé pour définir l'ensemble des liens de redirection. La redirection pointe vers le même URI car le site est seulement composé d'une page et a une dimension trop courte pour une redirection dans la même page.
+Le css de l'identifiant menu utilise l'attribut float : left pour aligner la div à gauche.
 
 Contenu : ID Contenu
 --------------------
+
 Le contenu est composé, entre autres, d'un tableau avec un seul identifiant "activite".
+Le css de l'identifiant menu utilise l'attribut float : right pour aligner la div à droite.
