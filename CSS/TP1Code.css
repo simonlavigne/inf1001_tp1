@@ -1,28 +1,40 @@
+/*
+    Auteur : Simon Lavigne , Mehdi El Jouhfi , Marc-Emmanuel Nattier
+    Date : 28/09/2023
+    Description : Travail de groupe 1, INF 1001 
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
 /*
- -- Définition de bordure solide , arrondie et de couleur noire (border , border-style , border-radius , border-color)
- -- Ajout d'une image de fond et ajustement de la taille et du position (background-image , background-size , background-repeat , background-position)
- -- Définition de la hauteur et de la largeur de la bannière (height , width)
- -- Ajout d'une marge de 2px pour garantir un espacement entre les bordure (margin)
- -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
- -- Définition de l'affichage en flex pour permettre de centrer le texte verticalement et horizontalement (display , justify-content , align-items)
+    -- Définition de bordure solide , arrondie et de couleur noire (border , border-style , border-radius , border-color)
+    -- ajout d'un padding de 2px pour garantir un espacement entre le contenu et la division (padding)
 */
-#banniere{
+div {
     border: solid;
 	border-style: groove;
 	border-radius: 10px;
 	border-color: #000000;
+    padding: 2px;
+}
+
+/*
+ -- Ajout d'une image de fond et ajustement de la taille et du position (background-image , background-size , background-repeat , background-position)
+ -- Définition de la hauteur et de la largeur de la bannière (height). Pas besoin de définir une largeur , car le contenu est justifier vers la droite (justify-content).
+ -- Ajout d'une marge de 2px pour garantir un espacement entre les bordure des div du bas (margin)
+ -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
+ -- Définition de l'affichage en flex pour permettre de centrer le texte verticalement et horizontalement (display , justify-content , align-items)
+*/
+#banniere{
     background-image: url("../img/uqtr.png");
     background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: left;
 	height: 200px;
-	width: 100%;
-    margin: 2px;
+    margin-bottom: 0.5%;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
@@ -31,60 +43,53 @@ body {
 
 /*
     -- Definition de la taille de la police (font-size)
-    -- Ajout de 1% de marge à droite pour éviter que le texte soit trop proche de la bordure (padding-right)
+    -- Ajout de 0.25% de marge à droite pour éviter que le texte soit trop proche de la bordure (padding-right)
 */
 #banniere h1{
-    font-size: 20px;
-    padding-right: 2px;
+    font-size: 24px;
+    padding-right: 0.25%;
 }
 
 /*
     -- Position vers la gauche (float)
-    -- Définition de bordure solide , arrondie et de couleur noire (border , border-style , border-radius , border-color)
     -- Définition de la taille de la police (font-size)
     -- Définition de la largeur de manière relative % (width)
-    -- Définition de la marge pour éviter les bordures trop rapproché (margin)
     -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
 */
 #menu{
     float: left;
-    border: solid;
-	border-style: groove;
-	border-radius: 10px;
-	border-color: #000000;
 	font-size: 12px;
-    width: 24%;
-    margin: 2px;
-    padding: 2px;
+    width: 24.5%;
     box-sizing: border-box;
+    margin-right: 0.25%;
 }
 
+#menu td{
+    border: none
+}
 /*
     -- Position du coté droit (float)
-    -- Définition de bordure solide , arrondie et de couleur noire (border , border-style , border-radius , border-color)
     -- Définition de la taille de la police (font-size)
     -- Définition de la largeur de manière relative % (width)
     -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
-    -- Définition de la taille de marge pour éviter les bordures trop rapproché (margin)
-    -- Définition de la taille d'espacement interne pour éviter que le texte/tableau soit trop proche de la bordure (padding)
+    -- Ajout d'une marge de 0.25% à gauche pour éviter que les bordures soient trop proches (margin-left)
 */
 #contenu{
     float: right;
-    border: solid;
-	border-style: groove;
-	border-radius: 10px;
-	border-color: #000000;
     font-size: 12px;
-    width:74%;
+    width: 74.5%;
     box-sizing: border-box;
-    padding: 2px;
+    margin-left: 0.25%;
 }
 
-table{
+/*
+    On souhaite que la table prenne l'espace disponible dans la division 'contenu'
+*/
+#contenu table{
     width: 100%;
 }
 
-th, td{
+#contenu th, td{
     border:1px solid;
     color: #000000;
     font-size: 12px;
