@@ -1,5 +1,5 @@
 /*
-    Auteur : Simon Lavigne , Mehdi El Jouhfi , Marc-Emmanuel Nattier
+    Auteur : Simon Lavigne , Mehdi El Jouhfi , Marc-Emmanuel Nattier , India Rioux
     Date : 28/09/2023
     Description : Travail de groupe 1, INF 1001 
 */
@@ -85,11 +85,11 @@ div {
 /*
     On souhaite que la table prenne l'espace disponible dans la division 'contenu'
 */
-#contenu table{
+#activite {
     width: 100%;
 }
 
-#contenu th, td{
+#activite th, td{
     border:1px solid;
     color: #000000;
     font-size: 12px;
