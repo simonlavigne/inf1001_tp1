@@ -18,11 +18,12 @@ div {
 	border-style: groove;
 	border-radius: 10px;
 	border-color: #000000;
-    padding: 2px;
+    padding: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 /*
- -- Ajout d'une image de fond et ajustement de la taille et du position (background-image , background-size , background-repeat , background-position)
+ -- Ajout d'une image de fond et ajustement de la taille et du=e la position (background-image , background-size , background-repeat , background-position)
  -- Définition de la hauteur et de la largeur de la bannière (height). Pas besoin de définir une largeur , car le contenu est justifier vers la droite (justify-content).
  -- Ajout d'une marge de 2px pour garantir un espacement entre les bordure des div du bas (margin)
  -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
@@ -42,12 +43,10 @@ div {
 }
 
 /*
-    -- Definition de la taille de la police (font-size)
-    -- Ajout de 0.25% de marge à droite pour éviter que le texte soit trop proche de la bordure (padding-right)
+    -- Définition de la taille de la police (font-size)
 */
 #banniere h1{
     font-size: 24px;
-    /*padding-right: 0.25%;*/
 }
 
 /*
