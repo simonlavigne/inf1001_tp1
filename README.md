@@ -3,18 +3,16 @@ Travail de Groupe 1, INF 1001
 
 Membres du groupe
 -----------------
----
+
 Simon Lavigne Mehdi El Jouhfi Marc-Emmanuel Nattier India Rioux
 
 Description du projet
 ---------------------
----
+
 L'objectif de ce premier travail de groupe est de débuter un site web.
 
 Réalisation
 ---------------------
----
-
 En-tête : ID Bannière
 ---------------------
 La police Google a été importée dans le fichier CSS via @import url('https://fonts.googleapis.com/css?family='***FONT_NAME***') et appliquée à tout le corps de la page, y compris l'en-tête.
