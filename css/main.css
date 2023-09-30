@@ -47,7 +47,7 @@ div {
 */
 #banniere h1{
     font-size: 24px;
-    padding-right: 0.25%;
+    /*padding-right: 0.25%;*/
 }
 
 /*
@@ -67,6 +67,7 @@ div {
 #menu td{
     border: none
 }
+
 /*
     -- Position du coté droit (float)
     -- Définition de la taille de la police (font-size)
@@ -88,6 +89,7 @@ div {
 #activite {
     width: 100%;
 }
+
 /*
     -- Définition du style de la bordure (border)
     -- Définition de la couleur de la bordure (border-color)
