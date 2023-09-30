@@ -11,7 +11,7 @@ body {
 
 /*
     -- Définition de bordure solide , arrondie et de couleur noire (border , border-style , border-radius , border-color)
-    -- ajout d'un padding de 2px pour garantir un espacement entre le contenu et la division (padding)
+    -- ajout d'un padding de 0.5% pour garantir un espacement entre le contenu et la division (padding)
 */
 div {
     border: solid;
@@ -25,7 +25,7 @@ div {
 /*
  -- Ajout d'une image de fond et ajustement de la taille et du=e la position (background-image , background-size , background-repeat , background-position)
  -- Définition de la hauteur et de la largeur de la bannière (height). Pas besoin de définir une largeur , car le contenu est justifier vers la droite (justify-content).
- -- Ajout d'une marge de 2px pour garantir un espacement entre les bordure des div du bas (margin)
+ -- Ajout d'une marge de 0.5% pour garantir un espacement entre les bordures des div du bas (margin)
  -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
  -- Définition de l'affichage en flex pour permettre de centrer le texte verticalement et horizontalement (display , justify-content , align-items)
 */
@@ -54,6 +54,7 @@ div {
     -- Définition de la taille de la police (font-size)
     -- Définition de la largeur de manière relative % (width)
     -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
+    -- Ajout d'une marge de 0.25% à droite pour éviter que les bordures soient trop proches (margin-right)
 */
 #menu{
     float: left;
@@ -72,12 +73,12 @@ div {
     -- Définition de la taille de la police (font-size)
     -- Définition de la largeur de manière relative % (width)
     -- Définition de la boite de dimensionnement pour inclure les bordures et le padding dans la largeur et la hauteur (box-sizing)
-    -- Ajout d'une marge de 0.25% à gauche pour éviter que les bordures soient trop proches (margin-left)
+    -- Ajout d'une marge de 0.25%  pour éviter que les bordures soient trop proches (margin-left)
 */
 #contenu{
     float: right;
     font-size: 12px;
-    width: 74.5%;
+    width: 75%;
     box-sizing: border-box;
     margin-left: 0.25%;
 }
