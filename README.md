@@ -25,7 +25,7 @@ La propriété justify-content: flex-end; aligne les éléments enfants le long 
 
 La propriété align-items: center; aligne les éléments enfants le long de l'axe vertical au centre.
 
-Ces trois propriétés alignent l'élément h1, c'est-à-dire le titre de la bannière.
+Ces trois propriétés alignent les éléments dans la banières dans notre cas un tag <h1> représentant le titre (Loisir pour les étudiants).
 
 Menu : ID menu
 --------------
